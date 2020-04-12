@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-12T15:48:25Z" name="Default suite" finished-at="2020-04-12T15:48:32Z" duration-ms="6828">
+    <groups>
+    </groups>
+    <test started-at="2020-04-12T15:48:25Z" name="Default test" finished-at="2020-04-12T15:48:32Z" duration-ms="6828">
+      <class name="guru99.test.PositiveLoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:guru99.test.PositiveLoginTests@543588e6]" started-at="2020-04-12T15:48:25Z" name="setUp" finished-at="2020-04-12T15:48:27Z" duration-ms="2174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="positivLogin()[pri:0, instance:guru99.test.PositiveLoginTests@543588e6]" started-at="2020-04-12T15:48:27Z" name="positivLogin" finished-at="2020-04-12T15:48:32Z" duration-ms="4460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positivLogin -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:guru99.test.PositiveLoginTests@543588e6]" started-at="2020-04-12T15:48:32Z" name="closeDriver" finished-at="2020-04-12T15:48:32Z" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- guru99.test.PositiveLoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

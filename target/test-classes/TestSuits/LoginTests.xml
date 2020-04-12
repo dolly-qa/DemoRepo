@@ -1,0 +1,62 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="AllTests" verbose="1">
+<!--  parallel="tests" thread-count="4">  -->
+
+	<test name="PositiveLoginTests">
+		<parameter name="userName" value="mngr251808"></parameter>
+		<parameter name="password" value="UquqUqa"></parameter>
+
+		<classes>
+			<class name="guru99.test.PositiveLoginTests">
+				<methods>
+					<include name="positivLogin"></include>
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+
+
+	<test name="NegativeUserNameTests">
+		<parameter name="userName" value="mngr25188"></parameter>
+		<parameter name="password" value="UquqUqa"></parameter>
+
+		<classes>
+			<class name="guru99.test.PositiveLoginTests">
+				<methods>
+					<include name="negativeLoginTests"></include>
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+	
+	<test name="NegativePasswordTests">
+		<parameter name="userName" value="mngr25188"></parameter>
+		<parameter name="password" value="UquqU"></parameter>
+
+		<classes>
+			<class name="guru99.test.PositiveLoginTests">
+				<methods>
+					<include name="negativeLoginTests"></include>
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+	<test name="NegativeUserAndPasswordTests">
+		<parameter name="userName" value="mngr2188"></parameter>
+		<parameter name="password" value="UqqU"></parameter>
+
+		<classes>
+			<class name="guru99.test.PositiveLoginTests">
+				<methods>
+					<include name="negativeLoginTests"></include>
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+</suite>

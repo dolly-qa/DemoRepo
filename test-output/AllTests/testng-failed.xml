@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AllTests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PositiveLoginTests(failed)">
+    <parameter name="password" value="UquqUqa"/>
+    <parameter name="userName" value="mngr251808"/>
+    <classes>
+      <class name="guru99.test.PositiveLoginTests">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="positivLogin" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- guru99.test.PositiveLoginTests -->
+    </classes>
+  </test> <!-- PositiveLoginTests(failed) -->
+  <test thread-count="5" name="NegativeUserNameTests(failed)">
+    <parameter name="password" value="UquqUqa"/>
+    <parameter name="userName" value="mngr25188"/>
+    <classes>
+      <class name="guru99.test.PositiveLoginTests">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="negativeLoginTests" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- guru99.test.PositiveLoginTests -->
+    </classes>
+  </test> <!-- NegativeUserNameTests(failed) -->
+  <test thread-count="5" name="NegativePasswordTests(failed)">
+    <parameter name="password" value="UquqU"/>
+    <parameter name="userName" value="mngr25188"/>
+    <classes>
+      <class name="guru99.test.PositiveLoginTests">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="negativeLoginTests" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- guru99.test.PositiveLoginTests -->
+    </classes>
+  </test> <!-- NegativePasswordTests(failed) -->
+  <test thread-count="5" name="NegativeUserAndPasswordTests(failed)">
+    <parameter name="password" value="UqqU"/>
+    <parameter name="userName" value="mngr2188"/>
+    <classes>
+      <class name="guru99.test.PositiveLoginTests">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="negativeLoginTests" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- guru99.test.PositiveLoginTests -->
+    </classes>
+  </test> <!-- NegativeUserAndPasswordTests(failed) -->
+</suite> <!-- Failed suite [AllTests] -->
